@@ -1,0 +1,92 @@
+@media (max-width: 991px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .contact-info-small {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo-gallery img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container .last {
+    align-items: center;
+  }
+  .footer-container h5{
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+  .footer-container h5{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-container ul{
+    margin-top: 30px;
+  }
+  .footer-third{
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+}
+
+/* smaler phones */
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .section-label {
+    text-align: center;
+  }
+
+  textarea, input, button {
+    font-size: 14px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .circle img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .photo-gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-black {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
